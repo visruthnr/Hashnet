@@ -117,7 +117,7 @@ def save_admin_map(admin_map):
 
 # ---------------- Streamlit UI ----------------
 st.set_page_config(page_title="Hotspot Device Monitor", layout="wide")
-st.title("📡 Wi-Fi Hotspot Device Monitor")
+st.title("📡 HashNet Device Monitor")
 st.caption("Live view of devices connected to your Windows Hotspot")
 
 monitor = DeviceMonitor()
